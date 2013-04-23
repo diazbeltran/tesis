@@ -1,0 +1,18 @@
+CTYPE html>
+<html lang='es'>
+  <head>
+	<title>Lista de accidentes de ejemplo</title>
+	<meta charset='utf-8'>
+  </head>
+  <body>
+    <h1>accidentes</h1>
+	{% for elemento in lista %}
+	<ul>
+	  <li><strong>{{elemento.acc_id}}</strong></li>
+	  
+	</ul>
+	{% endfor %}
+  </body>
+</html>
+
+
